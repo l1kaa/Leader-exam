@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width:100%;
+    background-color: white;
+    font-family: Open Sans;
+}
+
+#main-logo{
+    position:absolute;
+    top:30px;
+    left:150px;
+    width:140px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.nav-bar{
+    row-gap:20px;
+    position: absolute;
+    top:30px;
+    right:280px;
+}
+
+#features{
+    position: inherit;
+    right:200px;
+}
+
+#team{
+    position: inherit;
+    right:100px;
+}
+
+#h1-1{
+    font-weight: 700;
+    display: flex;
+    position: absolute;
+    top:170px;
+    left:150px;
+}
+
+#under-h1-1{
+    display: flex;
+    position: absolute;
+    top:280px;
+    left:150px;
+}
+
+#img-1{
+    width:500px;
+    position: absolute;
+    top:150px;
+    right:250px;
+}
+
+#email{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top:360px;
+    left:150px;
+    padding-left: 10px;
+    font-family: Open Sans;
+    border:black;
+}
+
+#get-started{
+    border:none;
+    font-family: Open Sans;
+    position: absolute;
+    top:362px;
+    left:480px;
+    width:180px;
+    height:35px;
+    border-radius:2px;
+    font-weight: bold;
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    transition:0.8s;
+}
+
+#get-started:active{
+    background-color:hsl(224, 85%, 70%) ;
+}
+#get-started:hover{
+    letter-spacing: 2px;
+    background-color:hsl(224, 85%, 70%) ;
+}
+
+#email:active:hover{
+    border:red;
+}
+
+#h1-2{
+    font-weight: 700;
+    display: flex;
+    position: absolute;
+    top:700px;
+    left:150px;
+}
+
+#under-h1-2{
+    display: flex;
+    position: absolute;
+    top:770px;
+    left:150px;
+}
+
+#under-h1-2-2{
+    display: flex;
+    position: absolute;
+    top:840px;
+    left:150px;
+}
+
+#under-h1-2-3{
+    display: flex;
+    position: absolute;
+    top:910px;
+    left:150px;
+    text-decoration: underline hsl(170, 45%, 26%);
+    color: hsl(170, 45%, 43%);
+}
+
+.img-arrow{
+    width:30px;
+    position:absolute;
+    top:910;
+    left:250px;
+}
+
+#div1{
+    width:300px;
+    height:180px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position:absolute;
+    top:1000px;
+    left:150px;
+    padding:20px;
+}
+
+#img-2{
+    width:500px;
+    position: absolute;
+    top:700px;
+    right:250px;
+}
+
+#img-quotes{
+    width:20px;
+}
+
+#in-div1{
+    position: absolute;
+    top:50px;
+    font-size:14px;
+}
+
+#img-CEO{
+    width:50px;
+    border-radius:50%;
+    position: absolute;
+    bottom:20px;
+    left:20px;
+}
+
+
+#in-div2{
+    position: absolute;
+    bottom:50px;
+    left:80px;
+    font-weight: bold;
+    font-size:13px;
+}
+
+#in-div3{
+    position: absolute;
+    bottom:30px;
+    left:80px;
+    font-size:13px;
+}
