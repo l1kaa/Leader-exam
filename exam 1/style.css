@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: arial;
+}
+
+body{
+    background-image: url("./image2.jpeg");
+    background-repeat: no-repeat ;
+    background-size: 100%;
+}
+
+/* #nav-bar{
+    background-color:rgb(14, 3, 32);
+    width:100%;
+    height:100px;
+    position:fixed;
+    top:0px;
+    z-index: 1;
+} */
+
+h1{
+    color:rgb(255, 255, 255);
+    z-index: 3;
+    position:absolute;
+    top:15px;
+    left:75px;
+    font-size:40px;
+}
+
+#icon{
+    color:white;
+    font-size: 50px;
+    position:absolute;
+    top:0px;
+    left:30px;
+}
+
+.nav{
+    position:absolute;
+    left:50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:25px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;  */
+}
+
+#home, #search, #cities, #contact{
+    position:absolute;
+    top:27px;
+
+}
+
+#home{
+    position: absolute;
+    left:450px;
+}
+
+#search{
+    position: absolute;
+    left:600px;
+}
+
+#cities{
+    position: absolute;
+    left:750px;
+}
+
+#contact{
+    position: absolute;
+    left:900px;
+}
+
+#reviews{
+    position: absolute;
+    top:15px;
+    right:100px;
+    padding:17px 40px;
+    border-radius: 50px;
+    cursor:pointer;
+    border:0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 0.05) 0 0 8px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    letter-spacing: 3px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    box-shadow: rgb(81,76,93) 0px 7px 29px 0px;
+}
+
+button:active{
+    letter-spacing: 3px;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    box-shadow: rgb(81,76,93) 0px 0px 0px 0px;
+    transform: translate(0px,10px);
+    transition:100ms;
+}
+
+#user-search{
+    position: absolute;
+    top:120px;
+    left:620px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding:5px;
+    text-align: center;
+    transition: 1s;
+}
+
+#user-search:hover{
+    transform: scale(1.2);
+}
+
+#cloudy{
+    font-size: 20px;
+}
+
+h2{
+    color:white;
+    font-size:35px;
+    position:absolute;
+    top:230px;
+    left:200px;
+}
+
+#date{
+    color:white;
+    position: absolute;
+    top:270px;
+    left:200px;
+}
+
+#cloudy{
+    font-size:50px;
+    position: absolute;
+    top:300px;
+    left:200px;
+}
+
+#txt-cloud{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top:370px;
+    left:200px;
+}
+
+#now, #eleven-am, #twelve-pm, #one-pm, #two-pm{
+    color:white;
+    font-size:25px;
+    position:absolute;
+    top:430px;
+}
+
+#now{
+    left:200px;
+}
+
+#eleven-am{
+    left:350px;
+}
+
+#twelve-pm{
+    left:500px;
+}
+
+#one-pm{
+    left:650px;
+}
+
+#two-pm{
+    left:800px;
+}
+
+
+#main-deg{
+    font-size:50px;
+    position:absolute;
+    top:230px;
+    left:400px;
+    color:white;
+}
