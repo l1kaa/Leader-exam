@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(197, 223, 246); */
+}
+
+#nav-bar{
+    background: #a9c9d5aa;
+    width:60%;
+    height: 80px;
+    border-radius: 20px;
+    position: fixed;
+    top:3%;
+    left:17%;
+    z-index: 11;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#main-name{
+    position: absolute;
+    top:27%;
+    left:5%;
+    background: none;
+    font-size: 150%;
+    font-weight: 700;
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 10;
+}
+
+
+#nav-links{
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:15%;
+    align-items: center;
+    padding:10px 20px;
+    border-radius: 15px;
+    z-index: 11;
+    
+}
+
+#nav-links a {
+    background: none;
+    font-size: 130%;
+    font-weight: 700;
+    color: aliceblue;
+    /* text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    text-decoration: none;
+    transition: 1s;
+}
+
+#nav-links a:hover{
+    color: #58828c;
+    transform: scale(1.2);
+}
+
+#cart{
+    position: absolute;
+    bottom:30%;
+    left:90%;
+    width:5%;
+    mix-blend-mode: multiply;
+    transition: 1s;
+}
+
+#cart:hover{
+    transform: scale(1.1);
+}
+
+
+#main-desc{
+    background: #a9c9d58a;
+    width:450px;
+    height:200px;
+    border-radius: 10px;
+    position: absolute;
+    top:40%;
+    left:20%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+#desc-1{
+    font-size: 150%;
+    text-align: center;
+    font-weight: 700;
+    color: #37393a;
+    position: absolute;
+    top:20%;
+    left:15%;
+}
+
+#desc-2{
+    font-size: 100%;
+    text-align: center;
+    font-weight: 500;
+    color: #555859;
+    position: absolute;
+    display: flex;
+    top:50%;
+
+}
+
+#main-product{
+    width:30%;
+    position: absolute;
+    top:25%;
+    left:50%;
+}
+
+section div{
+    width:400px;
+    height:700px;
+    background: #CCDBDC;
+    border-radius: 3%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+button{
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor:pointer;
+    border:0;
+    background-color:aliceblue;
+    box-shadow: rgb(0 0 0 / 0.05) 0 0 8px;
+    letter-spacing: 1.5px;
+    font-size:12px;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    z-index: 8;
+    position: relative;
+    left:15%;
+    width:70%;
+}
+
+button:hover{
+    letter-spacing: 3px;
+    background-color: #58828c;
+    color:white;
+    font-weight: 500;
+    box-shadow: rgb(81, 76, 93) 0px 7px 29px 0px;
+}
+
+button:active{
+    letter-spacing: 3px;
+    background-color: #58828c;
+    color:white;
+    box-shadow: rgb(81, 76, 93) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+/* .add-to-cart-btn{
+
+} */
+
+#product1{
+    position: absolute;
+    top:100%;
+    left:10%;
+    padding:10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+#product1-img{
+    width:70%;
+    position: absolute;
+    top:5%;
+    left:10%;
+}
+
+#product1 button, #product2 button, #product3 button, #product4 button{
+    position: relative;
+    top:60%;
+    gap: 10px;
+}
+
+#product1 h1, #product2 h1, #product3 h1, #product4 h1{
+    color:#58828c; 
+    position: relative;
+    top:55%;
+    left:10%;
+}
+
+#product3 h1{
+    left:20%;
+}
+
+#product4 h1{
+    left:15%;
+}
+
+#product2{
+    position: absolute;
+    top:100%;
+    left:60%;
+    padding:10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#product3{
+    position: absolute;
+    top:210%;
+    left:10%;
+    padding:10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#product4{
+    position: absolute;
+    top:210%;
+    left:60%;
+    padding:10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
