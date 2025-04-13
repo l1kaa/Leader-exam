@@ -232,3 +232,144 @@ button:active{
     gap:10px;
 }
 
+@media (max-width: 768px){
+    #nav-bar{
+        width: 90%;
+        left: 5%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav-links{
+        flex-direction:column;
+        gap:10px;
+        align-items: center;
+    }
+
+    #main-name{
+        position: static;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #cart{
+        position: static;
+        width:40px;
+        margin: 10px auto;
+    }
+
+
+    #main-desc{
+        position: static;
+        width: 40px;
+        margin:10px auto;
+    }
+
+    #desc-1, #desc2{
+        position: static;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+    #main-product{
+        position: static;
+        width:90%;
+        margin:20px auto
+    }
+
+    #product1, #product2, #product3, #product4{
+        position: static;
+        width:90%;
+        margin:20px auto;
+    }
+
+    #product1-img{
+        width: 100%;
+        position: static;
+        margin: 0 auto
+    }
+
+    #product1 button, #product2 button, #product3 button, #product4 button{
+        position: static;
+        width: 90%;
+        margin:10px auto
+    }
+
+    #product1 h1, #product2 h1, #product3 h1, #product4 h1{
+        position: static;
+        text-align: center;
+    }
+
+}
+/* 
+@media (min-width: 1700px){
+    #nav-bar, #main-desc, section div{
+        width:90%;
+        left: 5%;
+        position: relative;
+    }
+
+    #main-product{
+        width:30%;
+    }
+
+    #nav-links{
+        justify-content: center;
+    }
+
+    #main-name{
+        font-size: 150%;
+    }
+
+    #product1 button, #product2 button, #product3 button, #product4 button,#product1 h1, #product2 h1, #product3 h1, #product4 h1{
+        position: relative;
+        top:0;
+        left:0;
+        text-align: center;
+        margin: 10px auto;
+    }
+}
+
+@media(min-width: 1701px){
+    #nav-bar{
+        width:80%;
+        left:10%;
+    }
+    #main-desc, #main-product{
+        width:80%;
+        left:10%;
+    }
+    section div{
+        width:45%;
+        margin: 20px 2.5%;
+        float:left;
+    }
+
+    #product1 button, #product2 button, #product3 button, #product4 button,#product1 h1, #product2 h1, #product3 h1, #product4 h1{
+        position: relative;
+        top:0;
+        left: 0;
+    }
+    #nav-links{
+        justify-content: space-evenly;
+    }
+} */
+/* 
+@media (min-width: 2501px){
+    body{
+        max-width: 2500px;
+        margin: 0 auto
+    }
+
+    #nav-bar{
+        width:75%;
+        left: 12.5%;
+    }
+
+    section div{
+        width:45%;
+        margin: 20px 2.5%;
+    }
+} */
