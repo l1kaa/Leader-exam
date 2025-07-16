@@ -19,7 +19,7 @@ def caesar_cipher(message, shift):
                 res += alph[index + shift]
             # except IndexError:
         else:
-            None
+            res += i
     return res
 
 print(caesar_cipher("abc",1))

@@ -38,3 +38,4 @@ def sumNums(string):
     return res
 
 print(sumNums("100 200"))
+print(sumNums("abc123xyz"))

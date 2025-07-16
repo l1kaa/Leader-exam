@@ -16,3 +16,6 @@ def longest_p(string):
             if len(res) >= len(string):
                 return string
     return res
+
+print(longest_p("babad"))
+print(longest_p("cbbd"))
